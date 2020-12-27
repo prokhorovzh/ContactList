@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		5DF302482598CEA8008310AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF302472598CEA8008310AF /* AppDelegate.swift */; };
 		5DF3024A2598CEA8008310AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF302492598CEA8008310AF /* SceneDelegate.swift */; };
-		5DF3024C2598CEA8008310AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3024B2598CEA8008310AF /* ViewController.swift */; };
 		5DF3024F2598CEA8008310AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF3024D2598CEA8008310AF /* Main.storyboard */; };
 		5DF302512598CEAE008310AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF302502598CEAE008310AF /* Assets.xcassets */; };
 		5DF302542598CEAE008310AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF302522598CEAE008310AF /* LaunchScreen.storyboard */; };
+		5DF302602598CFAB008310AF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3025F2598CFAB008310AF /* TableViewController.swift */; };
+		5DF302632598CFB9008310AF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF302622598CFB9008310AF /* TableViewCell.swift */; };
+		5DF302662598D04E008310AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF302652598D04E008310AF /* ViewController.swift */; };
+		5DF302692598D09E008310AF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF302682598D09E008310AF /* Person.swift */; };
+		5DF3026C25991E17008310AF /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3026B25991E17008310AF /* SecondTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5DF302442598CEA8008310AF /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF302472598CEA8008310AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DF302492598CEA8008310AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5DF3024B2598CEA8008310AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5DF3024E2598CEA8008310AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DF302502598CEAE008310AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DF302532598CEAE008310AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DF302552598CEAE008310AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF3025F2598CFAB008310AF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5DF302622598CFB9008310AF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5DF302652598D04E008310AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DF302682598D09E008310AF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5DF3026B25991E17008310AF /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				5DF302472598CEA8008310AF /* AppDelegate.swift */,
 				5DF302492598CEA8008310AF /* SceneDelegate.swift */,
-				5DF3024B2598CEA8008310AF /* ViewController.swift */,
 				5DF3024D2598CEA8008310AF /* Main.storyboard */,
+				5DF302682598D09E008310AF /* Person.swift */,
+				5DF3026B25991E17008310AF /* SecondTableViewController.swift */,
+				5DF3025F2598CFAB008310AF /* TableViewController.swift */,
+				5DF302622598CFB9008310AF /* TableViewCell.swift */,
+				5DF302652598D04E008310AF /* ViewController.swift */,
 				5DF302502598CEAE008310AF /* Assets.xcassets */,
 				5DF302522598CEAE008310AF /* LaunchScreen.storyboard */,
 				5DF302552598CEAE008310AF /* Info.plist */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DF3024C2598CEA8008310AF /* ViewController.swift in Sources */,
+				5DF302692598D09E008310AF /* Person.swift in Sources */,
+				5DF302662598D04E008310AF /* ViewController.swift in Sources */,
 				5DF302482598CEA8008310AF /* AppDelegate.swift in Sources */,
+				5DF302632598CFB9008310AF /* TableViewCell.swift in Sources */,
+				5DF3026C25991E17008310AF /* SecondTableViewController.swift in Sources */,
+				5DF302602598CFAB008310AF /* TableViewController.swift in Sources */,
 				5DF3024A2598CEA8008310AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
